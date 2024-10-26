@@ -13,7 +13,7 @@ import google.generativeai as genai
 from google.colab import files
 
 # API 키 설정
-genai.configure(api_key='AIzaSyD1GX8f9XcpXQHQXEeC2b5MOM8t2N4qqxw')
+genai.configure(api_key= '') #API key notion(Simple memos/Gemini API test)에 올려둠
 
 # Gemini Pro Vision 모델 생성
 model = genai.GenerativeModel('gemini-1.5-flash')
